@@ -124,3 +124,7 @@ tbody tr:nth-child(odd) {
 h2 + form {
   color: rgb(255, 10, 10);
 }
+
+h2::first-letter {
+  font-size: larger;
+}
