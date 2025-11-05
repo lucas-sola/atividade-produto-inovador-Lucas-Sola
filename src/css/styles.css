@@ -15,12 +15,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-h1,
-h2,
-h3 {
-  color: white;
+  background-color: beige
 }
 
 p {
@@ -51,7 +46,6 @@ a:active {
 nav {
   margin-top: 15px;
   margin-bottom: 15px;
-  background-color: rgb(249, 245, 245);
 }
 
 section {
@@ -96,6 +90,7 @@ tbody tr:nth-child(odd) {
   font-size: 20px;
   margin: 20px;
   margin: 10px auto;
+  font-size: 56px;
 }
 
 #hero,
