@@ -1,100 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lançamento Mochila falante com IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lançamento Mochila falante com IA </title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="src/css/styles.css" />
-</head>
-
-<body>
-  <header>
-    <h1 class="retangulo">Mochila Falante com IA</h1>
-    <nav>
+  <body>
+    <header>
+      <h1 class="retangulo">Mochila Falante com IA</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero"> O que é? </a></li>
+          <li><a href="#Especificações"> Especificações </a></li>
+          <li><a href="#Galeria"> Galeria </a></li>
+          <li><a href="#Comprar"> Comprar </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <article>
+          <h3>Explore o desconhecido</h3>
+          <p>
+            O produto se trata de uma mochila que fala através de IA, servindo
+            de companheira, fonte de informações ou qualquer outro tipo de
+            atividade necessária. O produto não necessita de internet para seu
+            funcionamento, sendo muito útil em acampamentos e locais afastados
+            de redes ou sinais.
+          </p>
+          <img
+            src="src/img/produto-hero.png"
+            alt="Imagem do produto Mochila falante com IA"
+            class="imagem"
+          />
+        </article>
+      </section>
+      <section id="Especificações">
+        <article>
+          <h2>Especificações Técnicas</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Características</th>
+                <th>Detalhes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Durabilidade extrema</td>
+                <td>Impermeável</td>
+              </tr>
+              <tr>
+                <td>Conforto Ergonômico</td>
+                <td>Alças ajustáveis</td>
+              </tr>
+              <tr>
+                <td>Organização Inteligente</td>
+                <td>Compartimento para Laptop Alcochoado</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <img
+                    src="src/img/produto-spec.png"
+                    alt="Homem sentado com a mochila nas costas observando o horizonte"
+                   class="imagem"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+      <section id="Galeria">
+        <article>
+          <h2>Galeria de imagens</h2>
+          <img
+            src="src/img/galeria-01.png"
+            alt="imagem de uma pessoa andando com a mochila que fala por nas costas em direção à natureza"
+            class="imagem"
+          />
+          <img
+            src="src/img/galeria-02.png"
+            alt="imagem de uma pessoa andando com a mochila que fala por IA nas costas em direção à cidade"
+            class="imagem"
+          />
+        </article>
+      </section>
+      <section id="Comprar">
+        <article>
+          <h2>Garanta já o seu!</h2>
+          <form action="#" method="get">
+            <label for="email_contato"></label>
+            Seu Email --
+            <input type="email" id="email_contato" required />
+            <button type="submit" class="botao">Comprar Agora</button>
+          </form>
+        </article>
+      </section>
+    </main>
+    <aside>
+      <h4>Recursos Adicionais</h4>
       <ul>
-        <li><a href="#hero"> O que é? </a></li>
-        <li><a href="#Especificações"> Especificações </a></li>
-        <li><a href="#Galeria"> Galeria </a></li>
-        <li><a href="#Comprar"> Comprar </a></li>
+        <li><a href="#"> Manuais do usuário </a></li>
+        <li><a href="#"> Suporte Técnico </a></li>
+        <li><a href="#"> Garantia </a></li>
       </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="hero">
-      <article>
-        <h3>Explore o desconhecido</h3>
-        <p>
-          O produto se trata de uma mochila que fala através de IA, servindo
-          de companheira, fonte de informações ou qualquer outro tipo de
-          atividade necessária. O produto não necessita de internet para seu
-          funcionamento, sendo muito útil em acampamentos e locais afastados
-          de redes ou sinais.
-        </p>
-        <img src="src/img/produto-hero.png" alt="Imagem do produto Mochila falante com IA" class="imagem" />
-      </article>
-    </section>
-    <section id="Especificações">
-      <article>
-        <h2>Especificações Técnicas</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Características</th>
-              <th>Detalhes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Durabilidade extrema</td>
-              <td>Impermeável</td>
-            </tr>
-            <tr>
-              <td>Conforto Ergonômico</td>
-              <td>Alças ajustáveis</td>
-            </tr>
-            <tr>
-              <td>Organização Inteligente</td>
-              <td>Compartimento para Laptop Alcochoado</td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
-    </section>
-    <section id="Galeria">
-      <article>
-        <h2>Galeria de imagens</h2>
-        <img src="src/img/foto do cara sentado.png" alt="imagem de uma pessoa andando com a mochila que fala por nas costas em direção à natureza" class="imagem" />
-        <img src="src/img/foto da mochila de outra cor.png"
-          alt="imagem de uma pessoa andando com a mochila que fala por IA nas costas em direção à cidade"   class="imagem" />
-      </article>
-    </section>
-    <section id="Comprar">
-      <article>
-        <h2>Garanta já o seu!</h2>
-        <form action="#" method="get">
-          <label for="email_contato"></label>
-          Seu Email --
-          <input type="email" id="email_contato" required />
-          <button type="submit" class="botao">Comprar Agora</button>
-        </form>
-      </article>
-    </section>
-  </main>
-  <aside>
-    <h4>Recursos Adicionais</h4>
-    <ul>
-      <li><a href="#"> Manuais do usuário </a></li>
-      <li><a href="#"> Suporte Técnico </a></li>
-      <li><a href="#"> Garantia </a></li>
-    </ul>
-  </aside>
-  <footer>
-    <p>© 2025 Sola's Enteirtanment. Todos os direitos reservados.</p>
-  </footer>
-</body>
-
+    </aside>
+    <footer>
+      <p>© 2025 Sola's Enteirtanment. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
