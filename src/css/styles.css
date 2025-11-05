@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.retangulo {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgb(255, 162, 2), rgb(192, 113, 3));
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+body {
+  font-family: "Momo Trust Display", sans-serif;
+  font-size: 0.9rem;
+  display: grid;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(249, 245, 245);
+}
+
+p {
+  line-height: 1.2rem;
+}
+
+
+
+#hero,
+#Galeria {
+  background-color: rgb(251, 179, 72);
+  border-radius: 30px;
+  margin: 15px auto;
+}
+
+
+
+section {
+  margin: 30px auto;
+}
+
+main > section table,
+td,
+th {
+  width: 80%;
+  margin: 2rem auto;
+  border: solid black 0.1rem;
+  text-align: center;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+}
+thead {
+  background-color: #014ea0;
+  color: rgb(255, 255, 255);
+}
+
+h2 + form {
+  color: rgb(255, 10, 10);
+}
+
+.botao {
+  font-size: 1.2rem;
+  background-color: red;
+  border-radius: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.botao:hover {
+  opacity: 1;
+}
+
+a {
+  color: #087fff;
+  text-decoration: none;
+}
+a:visited {
+  color: #7e0686;
+  padding: 8px;
+}
+a:hover {
+  color: #014ea0;
+  text-decoration: underline;
+  padding: 8px;
+}
+a:active {
+  color: red;
+  padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d4d3d3;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f7f6f6;
+}
+
+.imagem {
+  transition: 0.3s ease 0.2s;
+  height: 300px;
+  width: auto;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 255, 0.5);
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.imagem:hover {
+  transform: scale(1.05);
+}
+
+h1, h2, h3 {
+  color: white;
+}
