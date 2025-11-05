@@ -52,9 +52,7 @@ section {
   margin: 30px auto;
 }
 
-main > section table,
-td,
-th {
+main > section table, td, th {
   width: 80%;
   margin: 2rem auto;
   border: solid black 0.1rem;
@@ -62,8 +60,7 @@ th {
   border-collapse: collapse;
 }
 
-th,
-td {
+th, td {
   padding: 8px;
 }
 
@@ -93,8 +90,7 @@ tbody tr:nth-child(odd) {
   font-size: 56px;
 }
 
-#hero,
-#Galeria {
+#hero, #Galeria {
   background-color: rgb(251, 179, 72);
   border-radius: 30px;
   margin: 15px auto;
